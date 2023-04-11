@@ -9,3 +9,9 @@ Once you have opened 'index.html', you can use the drum kit in two ways:
 - Click on the drum pads to play the corresponding drum sound.
 - Press the keyboard keys displayed on each drum pad to play the corresponding drum sound.
 
+## Technologies Used
+This project was created using the following technologies:
+
+- HTML
+- CSS
+- JavaScript
