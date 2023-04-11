@@ -13,3 +13,15 @@ document.querySelectorAll(".box").forEach((letter) =>
     letter.classList.remove("playing");
   })
 );
+
+document.querySelectorAll(".box").forEach((letter) =>
+  letter.addEventListener("click", (e) => {
+    const audio = document.querySelector(
+      `audio[data-letter='${letter.getAttribute("data-letter")}']`
+    );
+    if (!audio) return;
+    audio.play();
+    audio.currentTime = 0;
+    letter.classList.add("playing");
+  })
+);
