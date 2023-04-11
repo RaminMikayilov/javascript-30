@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Drum Kit</h1>
+      <div class="letters">
+        <div class="box" data-letter="a">
+          <div class="letter">A</div>
+          <div class="sound">clap</div>
+        </div>
+        <div class="box" data-letter="s">
+          <div class="letter">S</div>
+          <div class="sound">hihat</div>
+        </div>
+        <div class="box" data-letter="d">
+          <div class="letter">D</div>
+          <div class="sound">kick</div>
+        </div>
+        <div class="box" data-letter="f">
+          <div class="letter">F</div>
+          <div class="sound">openhat</div>
+        </div>
+        <div class="box" data-letter="g">
+          <div class="letter">G</div>
+          <div class="sound">boom</div>
+        </div>
+        <div class="box" data-letter="h">
+          <div class="letter">H</div>
+          <div class="sound">ride</div>
+        </div>
+        <div class="box" data-letter="j">
+          <div class="letter">J</div>
+          <div class="sound">snare</div>
+        </div>
+        <div class="box" data-letter="k">
+          <div class="letter">K</div>
+          <div class="sound">tom</div>
+        </div>
+        <div class="box" data-letter="l">
+          <div class="letter">L</div>
+          <div class="sound">tink</div>
+        </div>
+      </div>
+    </div>
+
+    <audio data-letter="a" src="sounds/clap.wav"></audio>
+    <audio data-letter="s" src="sounds/hihat.wav"></audio>
+    <audio data-letter="d" src="sounds/kick.wav"></audio>
+    <audio data-letter="f" src="sounds/openhat.wav"></audio>
+    <audio data-letter="g" src="sounds/boom.wav"></audio>
+    <audio data-letter="h" src="sounds/ride.wav"></audio>
+    <audio data-letter="j" src="sounds/snare.wav"></audio>
+    <audio data-letter="k" src="sounds/tom.wav"></audio>
+    <audio data-letter="l" src="sounds/tink.wav"></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>

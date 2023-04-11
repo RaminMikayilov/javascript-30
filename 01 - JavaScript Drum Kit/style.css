@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+
+.container {
+  background: url("./img/drum.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.container h1 {
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.letters {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100px;
+  height: 115px;
+  padding: 15px;
+  border: 3px solid orange;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.letter {
+  font-size: 40px;
+  padding: 3px;
+}
+
+.sound {
+  color: orange;
+  text-transform: uppercase;
+}
+
+.playing {
+  border: 5px solid yellow;
+  transform: scale(1.1);
+}
