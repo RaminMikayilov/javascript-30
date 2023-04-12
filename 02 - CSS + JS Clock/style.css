@@ -61,3 +61,14 @@
   height: 4px;
   background-color: green;
 }
+
+.point {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  transform: translate(-50%,-35%);
+}
