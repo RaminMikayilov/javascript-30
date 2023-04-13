@@ -1,4 +1,4 @@
-# JavaScript Drum Kit
+# [JavaScript Drum Kit](https://rm-javascriptdrumkit.netlify.app/)
 
 This project is a simple drum kit created. It allows users to play different drum sounds by pressing keyboard keys or clicking on the corresponding drum pads.
 
