@@ -42,5 +42,5 @@ img {
   max-height: 50vw;
   background-color: var(--base);
   padding: var(--spacing);
-  backdrop-filter: blur(var(--blur));
+  filter: blur(var(--blur));
 }
