@@ -1,0 +1,46 @@
+:root {
+  --spacing: 10px;
+  --blur: 10px;
+  --base: #ffa500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #634e65;
+  min-height: 100vh;
+  color: #eee;
+  text-align: center;
+}
+
+.container h1 {
+  padding: 20px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text label {
+  display: block;
+  padding: 15px;
+}
+
+img {
+  width: 1000px;
+  max-width: 50vw;
+  background-color: var(--base);
+  padding: var(--spacing);
+  backdrop-filter: blur(var(--blur));
+}
