@@ -1,12 +1,16 @@
 const inputs = document.querySelectorAll(".inputs input");
 
 function handleUpdate() {
-  let r = document.querySelector(":root");
-  if (this.name == "spacing")
-    r.style.setProperty("--spacing", `${this.value}px`);
-  else if (this.name == "blur")
-    r.style.setProperty("--blur", `${this.value}px`);
-  else r.style.setProperty("--base", `${this.value}`);
+  const r = document.querySelector(":root");
+
+  // if (this.name == "spacing")
+  //   r.style.setProperty("--spacing", `${this.value}px`);
+  // else if (this.name == "blur")
+  //   r.style.setProperty("--blur", `${this.value}px`);
+  // else r.style.setProperty("--base", `${this.value}`);
+
+  const suffix = this.dataset.sizing || "";
+  r.style.setProperty(`--${this.name}`, `${this.value}${suffix}`);
 }
 
 inputs.forEach((input) => input.addEventListener("input", handleUpdate));
