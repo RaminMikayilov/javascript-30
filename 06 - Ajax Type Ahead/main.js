@@ -7,9 +7,14 @@ const api =
 const cities = [];
 
 // fetch data
-fetch(api)
-  .then((data) => data.json())
-  .then((data) => cities.push(...data));
+window.onload = () => {
+  input.focus();
+  fetch(api)
+    .then((data) => data.json())
+    .then((data) => cities.push(...data));
+
+    displayCities();
+};
 
 const findCities = (word, cities) => {
   return cities.filter((data) => {
@@ -17,9 +22,11 @@ const findCities = (word, cities) => {
     return data.city.match(regex) || data.state.match(regex);
   });
 };
+
 function numberWithCommas(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
+
 const displayCities = (e) => {
   const word = e.target.value;
   const citiesArray = findCities(word, cities);
@@ -35,9 +42,9 @@ const displayCities = (e) => {
         `<span class="hl">${word}</span>`
       );
       return `
-        <div>
-          <span class="name">${cityName}, ${stateName}</span>
-          <span class="population">${numberWithCommas(place.population)}</span>
+        <div class="city">
+          <div class="name">${cityName}, ${stateName}</div>
+          <div class="population">${numberWithCommas(place.population)}</div>
         </div>
       `;
     })

@@ -31,3 +31,35 @@ body {
   border: 3px solid #00f;
   background-color: rgba(0, 0, 100, 0.1);
 }
+
+.city {
+  width: 400px;
+  min-width: 40%;
+  max-width: 80%;
+  background-color: rgba(100, 50, 0, 0.2);
+  padding: 10px 15px;
+  border: 3px solid brown;
+  outline: none;
+  border-radius: 5px;
+  color: blue;
+  font-style: italic;
+  font-size: 20px;
+  margin: 10px auto;
+}
+
+.name {
+  font-size: 25px;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.population {
+  color: brown;
+  font-weight: bold;
+  text-align: right;
+}
+
+.hl {
+  background-color: chartreuse;
+  color: deeppink;
+}
