@@ -49,7 +49,7 @@ const displayCities = (e) => {
 
 input.addEventListener("input", displayCities);
 
-// add default
+// add default word
 window.onload = () => {
   input.focus();
   input.value = "cal";
