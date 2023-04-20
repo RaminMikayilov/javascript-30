@@ -5,3 +5,4 @@
 3. [CSS Variables](https://rm-cssvariables.netlify.app/)
 4. [Array Cardio Day 1](/04%20-%20Array%20Cardio%20Day%201/)
 5. [Flex Panel Gallery](https://rm-flexpanelgallery.netlify.app/)
+6. [Ajax Type Ahead](https://rm-typeahead.netlify.app/)
