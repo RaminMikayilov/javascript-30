@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  padding: 20px;
+}
+
+.input {
+  width: 400px;
+  min-width: 40%;
+  max-width: 90%;
+  background-color: transparent;
+  padding: 10px 15px;
+  border: 3px solid blueviolet;
+  outline: none;
+  border-radius: 5px;
+  color: blue;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.input:focus {
+  border: 3px solid #00f;
+  background-color: rgba(0, 0, 100, 0.1);
+}
