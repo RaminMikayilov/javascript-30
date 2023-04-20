@@ -7,9 +7,12 @@ const api =
 const cities = [];
 
 // fetch data
-fetch(api)
-  .then((data) => data.json())
-  .then((data) => cities.push(...data));
+window.onload = () => {
+  fetch(api)
+    .then((data) => data.json())
+    .then((data) => cities.push(...data));
+  input.focus();
+};
 
 const findCities = (word, cities) => {
   return cities.filter((data) => {
@@ -48,10 +51,3 @@ const displayCities = (e) => {
 };
 
 input.addEventListener("input", displayCities);
-
-// add default word
-window.onload = () => {
-  input.focus();
-  input.value = "cal";
-  displayCities({ target: { value: "cal" } });
-};
