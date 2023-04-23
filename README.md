@@ -7,3 +7,4 @@
 5. [Flex Panel Gallery](https://rm-flexpanelgallery.netlify.app/)
 6. [Ajax Type Ahead](https://rm-typeahead.netlify.app/)
 7. [Array Cardio Day 2](/07%20-%20Array%20Cardio%20Day%202/)
+8. [Fun with HTML5 Canvas](https://rm-html5canvas.netlify.app/)
