@@ -46,8 +46,8 @@ const displayCities = (e) => {
         </div>
       `;
     })
-    .join("");
+    .join("") || `<div class="no-result">No result found</div>`;
   results.innerHTML = html;
 };
 
-input.addEventListener("input", displayCities);
+input.addEventListener("input", displayCities);   

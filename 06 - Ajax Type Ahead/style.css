@@ -63,3 +63,10 @@ body {
   background-color: chartreuse;
   color: deeppink;
 }
+
+.no-result {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
