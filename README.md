@@ -11,4 +11,4 @@
 
 ## Credits
 
-This challenge is based by Wes Bos. You can find his original tutorial on his website(https://javascript30.com/).
+This challenge is based by Wes Bos. You can find his original tutorial on his website at https://javascript30.com/.
