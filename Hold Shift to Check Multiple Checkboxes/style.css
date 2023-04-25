@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(125, 230, 19);
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  width: 500px;
+  max-width: 90%;
+  padding: 10px;
+  border: 2px solid red;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: rgb(185, 230, 140);
+}
+
+input:checked + label {
+  color: #f00;
+  text-decoration: line-through;
+}
