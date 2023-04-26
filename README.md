@@ -9,6 +9,9 @@
 7. [Array Cardio Day 2](/07%20-%20Array%20Cardio%20Day%202/)
 8. [Fun with HTML5 Canvas](https://rm-html5canvas.netlify.app/)
 9. [Dev Tools](/09%20-%20Dev%20Tools/)
+10. [Hold Shift to Check Checkboxes](https://rm-shiftcheckboxes.netlify.app/)
+11. [Custom Video Player](https://rm-videoplayer.netlify.app/)
+12. [Key Sequence Detection](/12%20-%20Key%20Sequence%20Detection/)
 
 ## Credits
 
