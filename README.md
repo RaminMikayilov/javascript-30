@@ -13,6 +13,8 @@
 11. [Custom Video Player](https://rm-videoplayer.netlify.app/)
 12. [Key Sequence Detection](/12%20-%20Key%20Sequence%20Detection/)
 13. [Slide in on Scroll](https://rm-slidein.netlify.app/)
+14. [Objects and Arrays](/14%20-%20Objects%20and%20Arrays/)
+15. [LocalStorage](/15%20-%20LocalStorage/)
 
 ## Credits
 
