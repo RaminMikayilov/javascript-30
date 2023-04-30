@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./img/bg.jpg") no-repeat center center/cover;
+}
+
+form {
+  width: 400px;
+  height: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(87, 30, 30, 0.5);
+  text-align: center;
+  padding: 15px;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.add {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: #f44336;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add:hover {
+  background: #f00;
+}
+
+.list {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: #ccc 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+}
