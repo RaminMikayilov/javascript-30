@@ -1,9 +1,12 @@
+// elements
 const container = document.querySelector(".container");
 const text = document.querySelector(".text");
+const mouseCursor = document.querySelector(".cursor");
 
 const walk = 100; // 100px
 
-container.addEventListener("mousemove", (e) => {
+// functions
+function shadow(e) {
   const { offsetWidth: width, offsetHeight: height } = container;
   let { offsetX: x, offsetY: y } = e;
   if (this !== e.target) {
@@ -15,7 +18,17 @@ container.addEventListener("mousemove", (e) => {
   const yWalk = Math.round((y / height) * walk - walk / 2);
 
   text.style.textShadow = `
-    ${xWalk}px ${yWalk}px 0 rgba(255, 0, 255, 0.7),
-    ${xWalk * -1}px ${yWalk * -1}px 0 rgba(0, 255, 255, 0.7)
+    ${xWalk}px ${yWalk}px 0 rgba(255, 0, 255, 0.7)
     `;
-});
+}
+
+function cursor(e) {
+  const { pageX: x, pageY: y } = e;
+  mouseCursor.style.top = `${y}px`;
+  mouseCursor.style.left = `${x}px`;
+}
+
+// event listeners
+container.addEventListener("mousemove", shadow);
+
+window.addEventListener("mousemove", cursor);
