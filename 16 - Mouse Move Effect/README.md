@@ -2,7 +2,7 @@
 
 This is a mouse move effect app and custom cursor app.
 
-![App Screenshot](./assets/img/screenshot.png)
+![App Screenshot](./img/screenshot.png)
 
 ## Features
 

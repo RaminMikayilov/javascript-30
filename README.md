@@ -15,6 +15,7 @@
 13. [Slide in on Scroll](/13%20-%20Slide%20In%20on%20Scroll/)
 14. [Objects and Arrays](/14%20-%20Objects%20and%20Arrays/)
 15. [LocalStorage](/15%20-%20LocalStorage/)
+16. [Mouse Move Effect](https://rm-mousemoveeffect.netlify.app/)
 
 ## Credits
 
