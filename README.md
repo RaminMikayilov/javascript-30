@@ -14,8 +14,11 @@
 12. [Key Sequence Detection](/12%20-%20Key%20Sequence%20Detection/)
 13. [Slide in on Scroll](/13%20-%20Slide%20In%20on%20Scroll/)
 14. [Objects and Arrays](/14%20-%20Objects%20and%20Arrays/)
-15. [LocalStorage](/15%20-%20LocalStorage/)
+15. [LocalStorage](/15%20-%20Localstorage/)
 16. [Mouse Move Effect](https://rm-mousemoveeffect.netlify.app/)
+17. [Sorting without Articles](/17%20-%20Sorting%20Without%20Articles/)
+18. [Working with Reduce](/18%20-%20Working%20with%20Reduce/)
+19. [Unreal Webcam](https://rm-unrealwebcam.netlify.app/)
 
 ## Credits
 
