@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unreal Webcam</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="photobooth">
+      <div class="controls">
+        <button onClick="takePhoto()">Take Photo</button>
+        <div class="rgb">
+          <label for="red">Red :</label>
+          <input type="range" min="0" max="255" name="red" />
+
+          <br />
+          <label for="green">Green :</label>
+          <input type="range" min="0" max="255" name="green" />
+
+          <br />
+
+          <label for="blue">Blue :</label>
+          <input type="range" min="0" max="255" name="blue" />
+
+          <br />
+
+          <label for="alpha">Alpha :</label>
+          <input type="range" min="0" max="255" name="alpha" />
+        </div>
+      </div>
+
+      <canvas class="photo"></canvas>
+      <video class="player"></video>
+      <div class="strip"></div>
+    </div>
+
+    <audio class="snap" src="./assets/snap.mp3" hidden></audio>
+
+    <script src="main.js"></script>
+  </body>
+</html>
