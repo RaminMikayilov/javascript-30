@@ -9,7 +9,7 @@ function highlightLink() {
   highlight.style.width = `${el.width}px`;
   highlight.style.height = `${el.height}px`;
   highlight.style.top = `${el.top + window.scrollY}px`;
-  highlight.style.left = `${el.left}px`;
+  highlight.style.left = `${el.left + window.scrollX}px`;
 }
 
 links.forEach((link) => link.addEventListener("mouseenter", highlightLink));
