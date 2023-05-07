@@ -19,6 +19,8 @@
 17. [Sorting without Articles](/17%20-%20Sorting%20Without%20Articles/)
 18. [Working with Reduce](/18%20-%20Working%20with%20Reduce/)
 19. [Unreal Webcam](https://rm-unrealwebcam.netlify.app/)
+20. [Speech Recognition](https://rm-speechrecognition.netlify.app/)
+21. [Compas](./21%20-%20Compas/)
 
 ## Credits
 
