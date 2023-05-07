@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  min-height: 100vh;
+  color: #fff;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+section a {
+  font-size: 30px;
+}
+
+.highlight {
+  transition: all 0.3s;
+  border-bottom: 2px solid white;
+  position: absolute;
+  top: 0;
+  background: white;
+  left: 0;
+  z-index: -1;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+a{
+    padding: 5px 10px;
+}
