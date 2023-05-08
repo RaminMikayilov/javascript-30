@@ -1,5 +1,4 @@
 const arrow = document.querySelector(".arrow");
-const speed = document.querySelector(".speed-value");
 
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
