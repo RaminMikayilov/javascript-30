@@ -22,6 +22,7 @@
 20. [Speech Recognition](https://rm-speechrecognition.netlify.app/)
 21. [Compas](./21%20-%20Compas/)
 22. [Follow Along Link](./22%20-%20Follow%20Along%20Links/)
+23. [Speech Synthesis](https://rm-speechsynthesis.netlify.app/)
 
 ## Credits
 
