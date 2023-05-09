@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.one {
+  background-color: #0f0;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+}
+
+.two {
+  background-color: #f00;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+}
+
+.three {
+  background-color: #00f;
+  width: 100%;
+  height: 100%;
+}
