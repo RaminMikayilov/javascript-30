@@ -23,6 +23,8 @@
 21. [Compas](./21%20-%20Compas/)
 22. [Follow Along Link](./22%20-%20Follow%20Along%20Links/)
 23. [Speech Synthesis](https://rm-speechsynthesis.netlify.app/)
+24. [Sticky Nav](./24%20-%20Sticky%20Nav/)
+25. [Bubbling and Capturing](./25%20-%20Bubbling%20and%20Capturing/)
 
 ## Credits
 
