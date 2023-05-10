@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stripe Follow Along Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="dropdownBackground">
+        <span class="arrow"></span>
+      </div>
+
+      <ul class="navbar">
+        <li>
+          <a href="#">About Me</a>
+          <div class="dropdown about">
+            <div class="bio">
+              <img
+                src="https://avatars.githubusercontent.com/u/89848148?v=4"
+                alt=""
+              />
+              <p>FrontEnd developer</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#">Projects</a>
+          <ul class="dropdown projects">
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+            <li><a href="#">Project 4</a></li>
+            <li><a href="#">Project 5</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+          <ul class="dropdown contact">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="main.js"></script>
+  </body>
+</html>
