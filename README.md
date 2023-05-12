@@ -25,6 +25,9 @@
 23. [Speech Synthesis](https://rm-speechsynthesis.netlify.app/)
 24. [Sticky Nav](./24%20-%20Sticky%20Nav/)
 25. [Bubbling and Capturing](./25%20-%20Bubbling%20and%20Capturing/)
+26. [Stripe Follow Along Dropdown](https://rm-stripedropdown.netlify.app/)
+27. [Click and Drag](https://rm-clickanddrag.netlify.app/)
+28. [Video Speed Controller](https://rm-videospeedcontroller.netlify.app/)
 
 ## Credits
 
