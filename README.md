@@ -28,6 +28,8 @@
 26. [Stripe Follow Along Dropdown](https://rm-stripedropdown.netlify.app/)
 27. [Click and Drag](https://rm-clickanddrag.netlify.app/)
 28. [Video Speed Controller](https://rm-videospeedcontroller.netlify.app/)
+29. [Countdown Timer](https://rm-countdowntimer.netlify.app/)
+30. [Whack A Mole](https://rm-whackamole.netlify.app/)
 
 ## Credits
 
