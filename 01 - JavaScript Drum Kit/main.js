@@ -15,7 +15,7 @@ document.querySelectorAll(".box").forEach((letter) =>
 );
 
 document.querySelectorAll(".box").forEach((letter) =>
-  letter.addEventListener("click", (e) => {
+  letter.addEventListener("click", () => {
     const audio = document.querySelector(
       `audio[data-letter='${letter.getAttribute("data-letter")}']`
     );
