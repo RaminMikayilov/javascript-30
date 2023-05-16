@@ -56,7 +56,6 @@ body {
 }
 
 .timer__button {
-  background: none;
   border: 0;
   cursor: pointer;
   color: white;
