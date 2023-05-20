@@ -34,3 +34,8 @@
 ## Credits
 
 This challenge is based by Wes Bos. You can find his original tutorial on his website at https://javascript30.com/.
+
+
+## License
+
+This project is licensed under the MIT License - [MIT](https://choosealicense.com/licenses/mit/)
